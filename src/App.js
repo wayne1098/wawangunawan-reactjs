@@ -7,11 +7,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          deploy <code>src/App.js</code> and save to reload.
           
           <br />
-          </p><a>
           deploy to heroku
+          </p><a>
+          
         </p>
         <a
           className="App-link"
