@@ -6,7 +6,7 @@ class classComponent extend React.Component{
 		return(
 			<div>
 			<h1>Hello word</h1>
-			<h2>Hello dunnia</h1>
+			<h2>Hello dunnia</h2>
 			</div>
 			)
 	}

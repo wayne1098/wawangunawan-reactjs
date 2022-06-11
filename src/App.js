@@ -14,9 +14,8 @@ function App() {
          
          <br />
          deploy to heroku
-        </p><a>
-          
-       </p>
+        </p>
+       
        <a
          className="App-link"
         href="https://reactjs.org"
@@ -28,6 +27,6 @@ function App() {
      </header>
     </div>
   );
-}
+};
 
 export default App;

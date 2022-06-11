@@ -3,7 +3,7 @@ const FunctionalComponent = () => {
 			<div>
 			<h1>Membuat komponen dengan functional komponen</h1>
 			<h2> Halo selamat belajar</h2>
-			</div
+			</div>
 		)
 }
 export delfaut FunctionalComponent;
