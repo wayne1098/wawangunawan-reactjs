@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import KomponenA from "./Materi/komponenA";
 
 function App() {
   return (
     <div className="App">
      <KomponenA />
 
+
     
-      <header className="App-header">
+      {/* <header className="App-header">
        <img src={logo} className="App-logo" alt="logo" />
        <p>
         deploy <code>src/App.js</code> and save to reload.
@@ -24,9 +26,9 @@ function App() {
        >
          Learn React
        </a>
-     </header>
+     </header> */}
     </div>
   );
-};
+}
 
 export default App;
