@@ -50,6 +50,8 @@ export default class Regis extends React.Component {
       phonenumberError = 'Phone number cannot be empty!';
     } else if (this.state.phonenumber.length < 11) {
       phonenumberError = 'Phone number minimum 11 number!';
+    }else if (this.state.phonenumber.length > 13) {
+      phonenumberError = 'Phone number maximum 13 number!';
     }
     
 
