@@ -48,7 +48,10 @@ export default class Regis extends React.Component {
 
     if (!this.state.phonenumber) {
       phonenumberError = 'Phone number cannot be empty!';
+    } else if (this.state.phonenumber.length < 11) {
+      phonenumberError = 'Phone number minimum 11 number!';
     }
+    
 
     if (!this.state.email) {
       emailError = 'Email cannot be empty!';
@@ -118,7 +121,7 @@ export default class Regis extends React.Component {
           <form onSubmit={this.handleSubmit}>
             <Input type="text" name="nama" label="Name" onChange={(value) => this.setState({ name: value })} />
             <div style={{ fontSize: 12, color: 'red' }}>{this.state.nameError}</div>
-            <Input type="text" name="phonenumber" label="Phone Number" onChange={(value) => this.setState({ phonenumber: value })} />
+            <Input type="number" name="phonenumber" label="Phone Number" onChange={(value) => this.setState({ phonenumber: value })} />
             <div style={{ fontSize: 12, color: 'red' }}>{this.state.phonenumberError}</div>
             <Input type="email" name="email" label="Email" onChange={(value) => this.setState({ email: value })} />
             <div style={{ fontSize: 12, color: 'red' }}>{this.state.emailError}</div>
