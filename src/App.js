@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import TugasForm from "./Materi/Tugas/Form Regis & Valid/TugasForm";
+import Lifecycle from './Materi/Tugas/Lifecycle/Script';
 
 function App() {
   return (
     <div className="App">
-     <TugasForm />
+      <Lifecycle />
+
      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,7 +21,7 @@ function App() {
           Learn React
         </a>
         </header>
-     <TugasForm />
+
 
 
     </div>
