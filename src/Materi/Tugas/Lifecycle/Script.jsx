@@ -69,7 +69,7 @@ export default class Lifecycle extends React.Component {
 	             {data.publishedAt}
 	            </Card.Subtitle>
 	            <Card.Text style={{textAlign : "center"}}>{data.content}</Card.Text>
-	            <Button variant="success" href={data.url} >Read more</Button>
+	            <Button variant="success" href={data.url} >Go News</Button>
 	           </Card.Body>
 	           </Card>
 	          </div>
