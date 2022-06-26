@@ -27,9 +27,8 @@ export default class Lifecycle extends React.Component {
 	      .then((response) => {
 	      this.setState({ dataApi: response.data.articles });
 	      })
-	      .catch(err => {
-				document.getElementById('card') = `<p style="backdrop-filter: blur(8px);  color:white; text-align: center;">Request Data Sudah Terlalu Banyak</p>`;
-			  
+	      .catch((error) => {
+	        console.log(error);
 	      });
 	  }
 
@@ -39,9 +38,8 @@ export default class Lifecycle extends React.Component {
 	        .then((response) => {
 	        this.setState({ dataApi: response.data.articles });
 	        })
-			.catch(err => {
-				document.getElementById('card') = `<p style="backdrop-filter: blur(8px);  color:white; text-align: center;">Request Data Sudah Terlalu Banyak</p>`;
-			 
+	        .catch((error) => {
+	          console.log(error);
 	        });
 	    
 	  }
@@ -61,7 +59,7 @@ export default class Lifecycle extends React.Component {
 	     	<Row>
 	         {this.state.dataApi.map((data, index) => {
 	          return (
-	          <div className="col-md-4 my-3" id="card" key={index}>
+	          <div className="col-md-4 my-3" key={index}>
 	           <Card border="black">
 	           <Card.Img variant="top" src={data.urlToImage} />
 	           <Card.Body>
