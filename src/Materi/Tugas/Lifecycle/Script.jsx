@@ -23,7 +23,7 @@ export default class Lifecycle extends React.Component {
 
 	componentDidMount() {
 	    axios
-	      .get(`https://newsapi.org/v2/everything?q=${this.state.search}&apiKey=46a5e3ecb80c43c78537217627614c72`)
+	      .get(`https://newsapi.org/v2/everything?q=${this.state.search}&apiKey=10b07017fe314da1ba834e02b205b90c`)
 	      .then((response) => {
 	      this.setState({ dataApi: response.data.articles });
 	      })
@@ -34,7 +34,7 @@ export default class Lifecycle extends React.Component {
 
 	componentDidUpdate(prevState) {
 	      axios
-	        .get(`https://newsapi.org/v2/everything?q=${this.state.search}&apiKey=46a5e3ecb80c43c78537217627614c72`)
+	        .get(`https://newsapi.org/v2/everything?q=${this.state.search}&apiKey=10b07017fe314da1ba834e02b205b90c`)
 	        .then((response) => {
 	        this.setState({ dataApi: response.data.articles });
 	        })
