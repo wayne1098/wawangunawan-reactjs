@@ -9,7 +9,7 @@ export default class Lifecycle extends React.Component {
 		super();
 		this.state = {
 			dataApi : [],
-			search : ''
+			search : 'input'
 		}
 
 		this.inputOnChange = this.inputOnChange.bind(this)
@@ -52,7 +52,7 @@ export default class Lifecycle extends React.Component {
 				  <Navbar.Brand href="#">---News From API WAWAN---</Navbar.Brand>
 				    <Form className="d-flex">
 				      <FormControl type="search" placeholder="Search" className="mr-2" aria-label="Search" onChange={this.inputOnChange}/>
-				      <Button variant="outline-success">Search</Button>
+				      {/* <Button variant="outline-success">Search</Button> */}
 				    </Form>
 				</Navbar>
 	   <Container>
@@ -68,7 +68,7 @@ export default class Lifecycle extends React.Component {
 	             {data.author}
 	             {data.publishedAt}
 	            </Card.Subtitle>
-	            <Card.Text style={{textAlign : "center"}}>{data.content}</Card.Text>
+	            <Card.Text style={{textAlign :"center"}}>{data.content}</Card.Text>
 	            <Button variant="success" href={data.url} >Go News</Button>
 	           </Card.Body>
 	           </Card>
