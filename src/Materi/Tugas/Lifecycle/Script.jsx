@@ -49,7 +49,7 @@ export default class Lifecycle extends React.Component {
 		return (
 			<div> 
         <Navbar bg="dark" expand="xlg" variant="dark">
-				  <Navbar.Brand href="#">News From API WAWAN</Navbar.Brand>
+				  <Navbar.Brand href="#">---News From API WAWAN---</Navbar.Brand>
 				    <Form className="d-flex">
 				      <FormControl type="search" placeholder="Search" className="mr-2" aria-label="Search" onChange={this.inputOnChange}/>
 				      <Button variant="outline-success">Search</Button>
