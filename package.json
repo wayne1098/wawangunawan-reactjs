@@ -12,6 +12,7 @@
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.2",
     "sass": "^1.52.3",
     "styled-components": "^5.3.5",
     "validatorjs": "^3.22.1",
