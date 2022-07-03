@@ -1,4 +1,3 @@
-import React from "react";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Container, Form, Navbar, Button,} from "react-bootstrap";
@@ -26,14 +25,15 @@ const Hook = () => {
     }, [query])
 
     return (
-        <div>
+        <div>  <Container >
             <Navbar bg="dark" expand="xlg" variant="dark">
-				<Navbar.Brand href="#">---News From API WAWAN---</Navbar.Brand>
-                <Form className="d-flex">
+				<Navbar.Brand href="#">---News From API WAWAN---</Navbar.Brand>   </Navbar>
+                {/* <Form className="d-flex"> */}
                   	<Form.Control type="search" placeholder="Search" className="py-2" aria-label="Search" value={query} onChange={(e) => { setLoading(true); setQuery(e.target.value); }} id="search" />
-				    <Button id="search" variant="outline-success">Search</Button>
-                </Form>
-            </Navbar>    
+				    {/* <Button id="search" variant="outline-success">Search</Button> */}
+                {/* </Form> */}
+               
+                </Container>
             
             <div id="content">
                 <Container id="news-content">

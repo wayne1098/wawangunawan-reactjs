@@ -1,14 +1,15 @@
 import { Card, Col, Row } from "react-bootstrap";
 import Loader from "./loader";
 
-const NewsApi = ({ data, count, isLoading }) => {
+const NewsApi = ({ data, count, isLoading }) => { 
     return isLoading ? (
-        <Loader />
+        <Loader /> 
         ) : (
         <Row>
             {
+                
                 (count === 0) ?
-                <h3>No results</h3> :
+                <h3>Tidak ditemukan apapun</h3> :
                 data.map((news, i) =>
                     <Col sm={4} key={i}>
                         <Card className="mb-2 my-3" border="black">

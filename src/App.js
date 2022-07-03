@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Hook from './Materi/Tugas/Hooks';
@@ -5,7 +6,7 @@ import Hook from './Materi/Tugas/Hooks';
 function App() {
   return (
     <div className="App">
-      <Hook />
+      < Hook />
 
      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
