@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Container, Form, Navbar, Button,} from "react-bootstrap";
+import { Container, Form, Navbar,} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NewsApi from "./NewsApi/cards";
 
