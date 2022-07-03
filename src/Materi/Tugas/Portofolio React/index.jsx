@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button, Card, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
+import {Card, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import "./index.css";
 
 export default class Portofolio extends React.Component {
