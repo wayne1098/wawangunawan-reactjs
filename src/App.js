@@ -24,9 +24,7 @@ function App() {
         </a>
         </header>
 
-
-
-    </div>
+   </div>
   );
 }
 export default App;
