@@ -6,7 +6,8 @@ import Redux from './Materi/Tugas/Redux';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+    {/* <div className="App"> */}
       < Redux />
 
      {/* <header className="App-header">
