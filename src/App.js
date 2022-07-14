@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Redux from './Materi/Tugas/Redux';
+import RoutingDone from './Materi/Tugas/Routing/Done';
 
 
 function App() {
   return (
     <div className="App">
-      < Redux />
+      < RoutingDone />
 
      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
