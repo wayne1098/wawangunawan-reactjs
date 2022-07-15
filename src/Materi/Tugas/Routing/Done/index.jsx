@@ -1,11 +1,11 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router,  Route, Switch } from "react-router-dom";
 
 import TugasForm from "../../Form Regis & Valid/TugasForm";
 import Hook from "../../Hooks/index";
 import Lifecycle from "../../Lifecycle/Script";
 import Nav from "./Navigation";
 import Portofolio from "../../Portofolio React";
-// import Routing from "..";
+
 const RoutingDone =() => {
     return (
     <div>
